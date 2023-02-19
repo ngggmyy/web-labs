@@ -1,0 +1,43 @@
+H3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px dashed #b00c2d;
+    margin: 20px auto;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+.weekday {
+    font-weight: bold;                      
+}
+
+.header {
+    background-color:  #5f52ab;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.lab {
+    background-color: #ffefb3;
+    color: black ;
+}
+
+.lab:hover {
+    background-color: #a89347;
+}
+
+.empty {
+    background-color: gainsboro;
+}
+
+.empty:hover {
+    background-color: gray;
+}
