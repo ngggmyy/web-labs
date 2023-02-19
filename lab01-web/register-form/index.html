@@ -1,0 +1,148 @@
+<!-- 521H0272 - N1T02 - BaiTap03_Lab01 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        .message_box {
+            border: 1px solid black;
+        }
+        #no_outline {
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: hidden;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+   <form method="post" action="https://web-503073-wiolshzi6q-uc.a.run.app/lab01/register">
+        <table>
+            <tr>
+                <td>Your Name</td>
+                <td>
+                    <input type="text" name="name" value="Full Name" style="color: gray; width: 100%;">
+                </td> 
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td>
+                    <input type="email" name="email" value="Email" style="color: gray; width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>
+                    <input type="date" name="birthday" style="width:100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Birthtime</td>
+                <td>
+                    <input type="time" name="birthtime" style="width:100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label> 
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label> 
+
+                </td>
+            </tr>
+            <tr>
+                <td>From</td>
+                <td>
+                    <select name="country" style="width: 100%;">
+                        <option value="">Select a country</option>
+                        <optgroup label="Asia">
+                            <option value="Vietnam">Vietnam</option>
+                            <option value="Laos">Laos</option>
+                            <option value="Cambodia">Cambodia</option>
+                            <option value="Singapore">Singapore</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="France">France</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Finland">Finland</option>
+                            <option value="Ireland">Ireland</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Favorite IDE</td>
+                <td>
+                    <input type="checkbox" name="favorite_ide" id="vsc" value="Visual Studio Code"> 
+                    <label for="vsc">Visual Studio Code</label> 
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="favorite_ide" id="st" value="Sublime Text">
+                    <label for="st">Sublime Text</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="favorite_ide" id="eclipse" value="Eclipse">
+                    <label for="eclipse">Eclipse</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="favorite_ide" id="atom" value="Atom">
+                    <label for="atom">Atom</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="favorite_ide" id="itelij" value="Itelij Idea">
+                    <label for="itelij">Intelij Idea</label>
+                </td>
+            </tr>
+            <tr>
+                <!-- Create a Range Slider: https://blog.hubspot.com/website/html-slider -->
+                <td>TOEIC Score</td>
+                <td>
+                    <input name="toeic" type="range" min="5" max="990" step="5" value="5" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td class="message_box" rowspan="9">
+                    <input type="text" name="message" id="no_outline">
+                </td>
+            </tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr><td> </td></tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Again">
+                </td>
+            </tr>
+        </table>
+   </form>
+</body>
+</html>

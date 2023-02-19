@@ -1,0 +1,65 @@
+<!-- 521H0272 - N1T02 - BaiTap01_Lab01 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>HTML TABLE</title>
+</head>
+<body>
+    <h1 id="headline">STUDENT SCHEDULE</h1>
+    <table style="width:100%">
+        <tr>
+            <th class="day">DAY/PERIOD</th>
+            <th>I</th>
+            <th>II</th>
+            <th id="lunch" rowspan="8">LUNCH</th>
+            <th>III</th>
+            <th>IV</th>
+        </tr>
+        <tr>
+            <th class="day">MONDAY</th>
+            <td>Math</td>
+            <td>Physics</td>
+            <td class="filled_gray" rowspan="2" colspan="2"></td>
+        </tr>
+        <tr>
+            <th class="day">TUESDAY</th>
+            <td class="lab" colspan="2">LAB</td>
+        </tr>
+        <tr>
+            <th class="day">WEDNESDAY</th>
+            <td>History</td>
+            <td>Music</td>
+            <td colspan="2">SEMINAR</td>
+        </tr>
+        <tr>
+            <th class="day">THURSDAY</th>
+            <td>Physical Education</td>
+            <td>Swimming</td>
+            <td>Chemistry</td>
+            <td>Biology</td>    
+        </tr>
+        <tr>
+            <th class="day">FRIDAY</th>
+            <td class="lab" colspan="2">LAB</td>
+            <td>Geography</td>
+            <td>Informatics</td>
+        </tr>
+        <tr>
+            <th class="day">SATURDAY</th>
+            <td>Math</td>
+            <td>Physics</td>
+            <td class="lab" colspan="2"></td>    
+        </tr>
+        <tr>
+            <th class="day">SUNDAY</th>
+            <td class="filled_gray" colspan="2"></td>
+            <td class="filled_gray"></td>
+            <td>Homework</td>
+        </tr>
+    </table>
+</body>
+</html>

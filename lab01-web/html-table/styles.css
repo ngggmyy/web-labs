@@ -1,0 +1,30 @@
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr {
+   text-align: center; 
+   height: 50px;
+}
+
+#lunch {
+    background-color: #b6ea60;
+}
+
+.lab {
+    background-color: #ffe68a;
+}
+
+.filled_gray {
+    background-color: #d2d2d2;
+}
+
+.day {
+    color: #4c38c1;
+}
+
+#headline {
+    color: #4c38c1;
+    text-align: center;
+}
